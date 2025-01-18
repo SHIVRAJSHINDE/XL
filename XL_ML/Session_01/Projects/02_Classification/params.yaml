@@ -1,0 +1,10 @@
+logistic_param_grid:
+  penalty: ['l1', 'l2', 'elasticnet']
+  max_iter: [100, 200]
+  fit_intercept: [True, False]
+
+svc_param_grid:
+  C: [0.1, 1.0, 10,20,30]
+  kernel: ['linear', 'rbf', 'poly']
+  probability: [True, False]
+  max_iter: [-1, 1000]
